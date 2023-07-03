@@ -1,0 +1,203 @@
+/*mobile*/
+@media only screen and (min-width:240px) and (max-width:480px) {
+
+    /* nav */
+    nav .content-nav {
+        display: none;
+    }
+
+    nav {
+        position: fixed !important;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        display: flex;
+        padding: 0;
+    }
+
+    .home-filter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .home-filter__label {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+    
+      .home-filter__btn {
+        flex-basis: 50%;
+        margin-bottom: 10px;
+      }
+    
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
+    
+      .img-nav {
+        width: 40%;
+      }
+    
+      .content-nav {
+        width: 60%;
+      }
+    
+      .content-nav ul {
+        display: none;
+      }
+    
+      .content-nav form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+      }
+    
+      #cart {
+        display: none;
+      }
+    
+      #myModal {
+        width: 100%;
+      }
+    
+      .modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    
+      .modal-body {
+        overflow-y: auto;
+      }
+    
+
+    .nav-mobile {
+        display: flex;
+    }
+
+    .img-nav {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .img-nav img {
+        padding-top: 0.5rem;
+        vertical-align: middle;
+        width: 90%;
+    }
+
+    .content-nav,
+    .item_menu form button {
+        right: 10px;
+    }
+
+    /* wrapper */
+    .wrapper {
+        padding: 1rem;
+    }
+
+    .products {
+        margin-top: 3rem;
+    }
+
+    .products ul .main-product {
+        width: 100%;
+    }
+
+    /* modal */
+    .modal-content {
+        width: 95%;
+    }
+
+    .cart-item-title {
+        font-size: 0.6em;
+    }
+
+    .cart-column {
+        margin-right: 0.5em;
+    }
+
+    .cart-price {
+        margin-right: 1rem;
+    }
+
+    #cart {
+        margin: .5rem;
+        padding: 3px;
+    }
+    
+}
+
+/* tablet */
+@media (min-width:480px) and (max-width:768px) {
+      .home-filter {
+    /* Tùy chỉnh CSS cho home-filter trên giao diện tablet */
+    /* Ví dụ: giảm kích thước phông chữ */
+        font-size: 14px;
+    }
+
+    header { 
+    /* Tùy chỉnh CSS cho header trên giao diện tablet */
+    /* Ví dụ: thay đổi layout của navigation */
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } 
+     .wrapper {
+        padding: 1.5rem;
+    }
+
+    .img-nav img {
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    nav .content-nav ul li a {
+        font-size: 12px;
+        padding: 0px 8px;
+    }
+
+    nav .content-nav {
+        width: 100%;
+    }
+
+    #cart {
+        font-size: 12px;
+        margin-left: 0.3rem;
+        padding: 0;
+    }
+
+    .products ul .main-product {
+        width: 31%;
+    }
+
+    .main-product .content-product .content-product-deltals .price {
+        font-size: 18px;
+    }
+
+    .products ul .no-margin {
+        margin-right: 1rem;
+    }
+
+    .cart-item-title {
+        font-size: 0.5em;
+    }
+
+    .cart-column {
+        margin-right: 0.5em;
+    }
+
+    .cart-price {
+        margin-right: 1rem;
+    }
+} 
+
